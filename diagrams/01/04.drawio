@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-24T21:41:47.256Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="_UzDBaTm3c13VWnOLxzf" version="14.2.6" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2021-01-24T21:46:23.188Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="qr41uTAqCx1RwGLU-osZ" version="14.2.6" type="github" pages="14">
   <diagram id="RUg0fpaPUdboZP0s0-Rn" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -574,6 +574,73 @@
         </mxCell>
         <mxCell id="Z0h4RGxvtDxpEe1QcIKM-25" value="The exact image we want to use" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="Z0h4RGxvtDxpEe1QcIKM-1">
           <mxGeometry x="710" y="535" width="290" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="w_Cb7S4vMqGsRkjmbJep" name="Page-13">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="khkgtRD4v4LJcOf9GZH5-0" />
+        <mxCell id="khkgtRD4v4LJcOf9GZH5-1" parent="khkgtRD4v4LJcOf9GZH5-0" />
+        <mxCell id="khkgtRD4v4LJcOf9GZH5-2" value="In the deployment config file, update the version of the image" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;align=center;" vertex="1" parent="khkgtRD4v4LJcOf9GZH5-1">
+          <mxGeometry x="540" y="290" width="590" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="khkgtRD4v4LJcOf9GZH5-3" value="Updating the Image Used By a Deployment - Method #1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontColor=#000000;fontStyle=1" vertex="1" parent="khkgtRD4v4LJcOf9GZH5-1">
+          <mxGeometry x="655" y="130" width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="khkgtRD4v4LJcOf9GZH5-4" value="" style="endArrow=classic;html=1;fontSize=23;fontColor=#000000;" edge="1" parent="khkgtRD4v4LJcOf9GZH5-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="170" as="sourcePoint" />
+            <mxPoint x="530" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="khkgtRD4v4LJcOf9GZH5-5" value="Steps" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontColor=#000000;" vertex="1" parent="khkgtRD4v4LJcOf9GZH5-1">
+          <mxGeometry x="460" y="170" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="khkgtRD4v4LJcOf9GZH5-6" value="Run the command&lt;br&gt;&lt;b&gt;kubectl apply -f [depl file name]&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;align=center;" vertex="1" parent="khkgtRD4v4LJcOf9GZH5-1">
+          <mxGeometry x="540" y="350" width="590" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="khkgtRD4v4LJcOf9GZH5-7" value="Make a change to your project code" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;align=center;" vertex="1" parent="khkgtRD4v4LJcOf9GZH5-1">
+          <mxGeometry x="540" y="170" width="590" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="khkgtRD4v4LJcOf9GZH5-8" value="Rebuild the image, specifying a new image version" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;align=center;" vertex="1" parent="khkgtRD4v4LJcOf9GZH5-1">
+          <mxGeometry x="540" y="230" width="590" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cpyxtTABhJHR3Ur-nYT3" name="Page-14">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="mjNivQgX3m-AEWfmxXgd-0" />
+        <mxCell id="mjNivQgX3m-AEWfmxXgd-1" parent="mjNivQgX3m-AEWfmxXgd-0" />
+        <mxCell id="mjNivQgX3m-AEWfmxXgd-2" value="The deployment must be using the &#39;latest&#39; tag in the pod spec section" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;align=center;" vertex="1" parent="mjNivQgX3m-AEWfmxXgd-1">
+          <mxGeometry x="540" y="170" width="590" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mjNivQgX3m-AEWfmxXgd-3" value="Updating the Image Used By a Deployment - Method #2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontColor=#000000;fontStyle=1" vertex="1" parent="mjNivQgX3m-AEWfmxXgd-1">
+          <mxGeometry x="650" y="130" width="370" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mjNivQgX3m-AEWfmxXgd-4" value="" style="endArrow=classic;html=1;fontSize=23;fontColor=#000000;" edge="1" parent="mjNivQgX3m-AEWfmxXgd-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="170" as="sourcePoint" />
+            <mxPoint x="530" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mjNivQgX3m-AEWfmxXgd-5" value="Steps" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;fontColor=#000000;" vertex="1" parent="mjNivQgX3m-AEWfmxXgd-1">
+          <mxGeometry x="460" y="170" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mjNivQgX3m-AEWfmxXgd-6" value="Make an update to your code" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;align=center;" vertex="1" parent="mjNivQgX3m-AEWfmxXgd-1">
+          <mxGeometry x="540" y="230" width="590" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mjNivQgX3m-AEWfmxXgd-7" value="Build the image" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;align=center;" vertex="1" parent="mjNivQgX3m-AEWfmxXgd-1">
+          <mxGeometry x="540" y="290" width="590" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mjNivQgX3m-AEWfmxXgd-8" value="Push the image to docker hub" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;align=center;" vertex="1" parent="mjNivQgX3m-AEWfmxXgd-1">
+          <mxGeometry x="540" y="350" width="590" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mjNivQgX3m-AEWfmxXgd-9" value="Run the command &lt;br&gt;&lt;b&gt;kubectl rollout restart deployment [depl_name]&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontColor=#000000;align=center;" vertex="1" parent="mjNivQgX3m-AEWfmxXgd-1">
+          <mxGeometry x="540" y="410" width="590" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
