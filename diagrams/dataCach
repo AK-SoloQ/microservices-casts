@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-24T13:58:50.206Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="heaR5Rwhv7RW9INB4Klw" version="14.4.9" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-03-24T15:19:04.999Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="UwYzxEiU0VHHfjWJad9q" version="14.4.9" type="github" pages="6">
   <diagram id="maOrvMPcaRGlfneTiua2" name="Page-1">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="j1YBF5ECekHB3WeyWWLd-0" />
         <mxCell id="j1YBF5ECekHB3WeyWWLd-1" parent="j1YBF5ECekHB3WeyWWLd-0" />
         <mxCell id="j1YBF5ECekHB3WeyWWLd-5" value="&lt;h1&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 36px&quot;&gt;&amp;nbsp;Amazon&amp;nbsp;ElastiCache&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;amazonember&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; font-size: 16px ; font-weight: 400&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;&lt;font color=&quot;#333333&quot;&gt;est une zone de stockage temporaire de taille relativement petite avec un temps d&#39;accès plus rapide. Chaque fois que votre application doit lire des données, elle doit d&#39;abord essayer de récupérer les données du cache.&lt;/font&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;h1&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot; size=&quot;3&quot;&gt;elle est aussi&amp;nbsp; une solution pour les cas d&#39;utilisation en temps réel comme la mise en cache, les gestion de sessions des services géospatiaux, l&#39;analyse en temps réel et la file d&#39;attente.&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="j1YBF5ECekHB3WeyWWLd-1">
-          <mxGeometry x="-750" y="170" width="700" height="570" as="geometry" />
+          <mxGeometry x="-760" y="160" width="700" height="570" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
